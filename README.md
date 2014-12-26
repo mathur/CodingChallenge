@@ -6,5 +6,5 @@ under "Download and Run MongoDB Yourself"
 git clone https://github.com/mathur/CodingChallenge.git
 
 3. Run the following commands once in the CodingChallenge directory:
-npm install
-node app.js
+'npm install'
+'node app.js'
