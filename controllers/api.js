@@ -446,8 +446,8 @@ exports.getClockwork = function(req, res) {
 exports.postClockwork = function(req, res, next) {
   var message = {
     To: req.body.telephone,
-    From: 'Hackathon',
-    Content: 'Hello from the Hackathon Starter'
+    From: 'HackIllinois Coding Challenge',
+    Content: 'Hello from the HackIllinois Coding Challenge'
   };
   clockwork.sendSms(message, function(err, responseData) {
     if (err) return next(err.errDesc);
