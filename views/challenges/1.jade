@@ -1,19 +1,10 @@
-script(language='JavaScript').
-  function checkAnswer() {
-    var answer = document.getElementById('sessionID').value.toLowerCase();
-    if(answer == '4') {
-      console.log('Correct!');
-    }
-    else {
-      console.log('Sorry, try again!');
-    }
-  }
-
 extends ../layout
 
 block content
-  .page-header
-    h3 Challenge #1
+  
+  h3 Challenge #1
   p 2 + 2 = ?
   input(type='text', name='sessionID', value=valueID)
   input(type='button', value='Submit', onclick='checkAnswer()')
+
+  script(type='text/javascript' src='answers.js')

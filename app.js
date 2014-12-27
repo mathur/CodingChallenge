@@ -125,7 +125,7 @@ app.post('/account/delete', passportConf.isAuthenticated, userController.postDel
 app.get('/account/unlink/:provider', passportConf.isAuthenticated, userController.getOauthUnlink);
 
 app.get('/challenges', passportConf.isAuthenticated, challengesController.getChallenges);
-app.get('/challenge/1', passportConf.isAuthenticated, challengesController.getChallenge1);
+app.get('/challenges/1', passportConf.isAuthenticated, challengesController.getChallenge1);
 
 /**
  * 500 Error Handler.
