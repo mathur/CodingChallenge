@@ -1,9 +1,9 @@
 {
-  "name": "hackathon-starter",
+  "name": "codingchallenge",
   "version": "2.4.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahat/hackathon-starter.git"
+    "url": "https://github.com/mathur/CodingChallenge.git"
   },
   "scripts": {
     "start": "node app.js",
